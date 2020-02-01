@@ -1,11 +1,11 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-turn_1 = []
+board = [" "," "," "," "," "," "," "," "," "]
 
 
 def display_board(board)
-  puts ' #{the_board[0]} | #{} | #{} '
+  puts ' #{board[0]} | #{board[1]} | #{board[2]} '
   puts '-----------'
   puts ' #{} | #{} | #{} '
   puts '-----------'
